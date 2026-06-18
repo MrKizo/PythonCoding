@@ -1,2 +1,2 @@
-x=6
+x=8
 print (type (x))
