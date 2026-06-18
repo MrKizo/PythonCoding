@@ -20,6 +20,6 @@ print (type (Name))
 
 x = 10  
 
-x= "hello" 
+x= "Kimo" 
 
 print (x)
