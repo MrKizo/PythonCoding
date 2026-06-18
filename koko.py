@@ -1,7 +1,4 @@
-x=8
+x=5
 print (type (x))
 
-o="j"
-
-print (type (o))
             
