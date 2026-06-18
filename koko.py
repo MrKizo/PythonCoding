@@ -20,8 +20,6 @@ print (type (Name))
 
 x = 10  
 
-x= "hello" 
+x= "hi" 
 
 print (x)
-
-help("keywords")
