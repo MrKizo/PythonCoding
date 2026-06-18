@@ -1,2 +1,2 @@
-x="Kimo"
+x="a"
 print (type (x))
