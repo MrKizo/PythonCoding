@@ -249,7 +249,7 @@ try:
 except ZeroDivisionError:
     print("Cannot divide by zero")
 ```
-
+--
 ---
 
 > **Tip:** Check any variable's type with `type(x)`.
