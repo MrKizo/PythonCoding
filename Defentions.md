@@ -24,4 +24,4 @@
 
 # Horizental tab (\t) creates a tab between the variables (simply makes it like you pressed space between em)
 
-# Character hex value (\xhh) 
+# Character hex value (\xhh)  
