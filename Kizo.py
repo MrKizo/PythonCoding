@@ -61,3 +61,23 @@ print ("kareem\tkoko")
 
 # Character hex value
 print ("\x4B\x69\x7a\x6f")
+
+#Concatenation
+
+msg = "I love"
+lang = "kizo"
+
+print (msg + " " + lang)
+
+full = msg + " " + lang
+print (full)
+
+a= "first\
+    second\
+    third"  
+
+b= "a \
+b \
+c"
+
+print (a + " \n " + b)

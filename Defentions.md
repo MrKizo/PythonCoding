@@ -25,3 +25,5 @@
 # Horizental tab (\t) creates a tab between the variables (simply makes it like you pressed space between em)
 
 # Character hex value (\xhh)  
+
+# Concatenation is connecting strings with each other you can either add space in the variables itself orrrr in the command itslef by print (msg + " " + lang)
