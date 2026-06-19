@@ -81,3 +81,31 @@ b \
 c"
 
 print (a + " \n " + b)
+
+#Strings
+
+MyStringOne = 'Kareem single quote'
+MyStringTwo = "Kareem double quote"
+mystringthree = 'Kareem triple "Test"'  
+mystringfour = "Kareem triple 'Test'"
+
+print (MyStringOne)
+print (MyStringTwo) 
+print (mystringthree)
+print (mystringfour)
+
+mystringfive = """I 
+love "test" 'test'
+koko"""
+print (mystringfive)
+
+mystringsix = '''I
+love "test" 'test'
+koko'''
+
+welcome = "Welcome"
+Player = "hero"
+
+Hp = 50 
+
+print (welcome, Player, "your HP is", Hp)
