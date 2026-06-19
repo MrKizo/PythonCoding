@@ -7,7 +7,7 @@ print (2 == 4)
 myvariable = 10 
 print (myvariable) 
 
-Age = 23   
+Age = 22  
 print (Age) 
 Name = "Kizo"
 print (Name) 
