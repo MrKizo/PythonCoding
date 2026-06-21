@@ -25,3 +25,10 @@
 # Character hex value (\xhh)  you use the hex value of the Character "K" to type it in the terminal "6B"  
 
 # Concatenation is connecting strings with each other you can either add space in the variables itself orrrr in the command itself using by print (msg + " " + lang)
+
+# String indexing &  Slicing
+
+# all data in python is an object
+# Object contains elements
+# Every Elements has its own index (index stars from zero) 
+# Enables us to acess a part of the element parts of strings tuples or lists
