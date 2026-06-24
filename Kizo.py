@@ -311,5 +311,5 @@ print(b.find("love" , 3 , 10))
 
 c = "Kareem"
 
-print(c.rjust(10, "#"))
+print(c.rjust(10, "#"))  
 
