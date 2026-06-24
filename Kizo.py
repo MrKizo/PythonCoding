@@ -288,9 +288,28 @@ a= "kizo is gud"
 print(a.endswith("d")) # As gud ends with D the answer is true
 print(a.endswith("s" , 0 , 7)) #asks about a certain part about the string
 
+#------------------
+
+#Index(substring , start , end) allows you to locate 1 element in the code itself be it a certian word or a letter
+
+a="i love kimo"
+print(a.index("e" , 0 , 6))
+
+#print(a.index("e" , 0 , 5))  #gives an error if the serach target is not found
 
 
+#find same function but will give -1 if the target was not found
 
+b = " i love kizo"\
 
+print(b.find("love" , 3 , 10)) 
 
+#------------
+
+#rjust(width , fill char) #ijust(width , fill char) just same same as center allows you to center the word but this 
+#allows you to fill 
+
+c = "Kareem"
+
+print(c.rjust(10, "#"))
 
