@@ -306,10 +306,164 @@ print(b.find("love" , 3 , 10))
 
 #------------
 
-#rjust(width , fill char) #ijust(width , fill char) just same same as center allows you to center the word but this 
+#rjust(width , fill char on lhe right side) #ljust(width , fill char on lhe left side) just same same as center allows you to center the word but this 
 #allows you to fill 
 
 c = "Kareem"
 
-print(c.rjust(10, "#"))  
+print(c.rjust(11))  
 
+print(c.ljust (11, "#"))  
+
+#------------
+
+#spiltlines() allows you to convert sperated lines back to a list
+#you can always add "type" to make sure its converted to the data type you need
+
+e = """Kizo
+Kimo
+Koko"""
+
+print(e.splitlines())
+print(type(e.splitlines()))
+
+#Another method
+
+f= "Kizo\nKizo\nKoko"
+
+print(f.splitlines())
+
+#---------
+
+#Expandtabs() allows you to control the tabs between words "\t" (the space between em)
+
+g= "i\tlove\tkizo"
+print(g.expandtabs(22))
+
+#-------------
+
+#print(istitle) check on the type of the data if its tite boleen string etc...
+
+one = "i love kimo and kizo"
+two = "I Love Kimo And 3Kizo"
+
+
+print(one.istitle())
+print(two.istitle())
+
+three = " "
+four = ""
+
+print(three.isspace())
+print(four.isspace())
+
+five = "i love kimo"
+six = "I Love Kimo"
+print(five.islower())
+print(six.islower())
+
+#print(isidentifier) allows you to check if the identifer is the correct  which follows the =
+seven = "ilovekizo"
+eight = "ilove_kizo"
+nine = "i love--kizo"
+print(seven.isidentifier())
+print(eight.isidentifier())
+print(nine.isidentifier())
+
+
+#-------------------------
+
+#(isalpha) allows you to confirm if the letter is from the alphabtics
+
+x = "aaaaaaaaabbbBbbb"
+y = "aaaaaaaaabbbBb111bb"
+
+print(x.isalpha())
+print(y.isalpha())
+
+#(isalnum) allows you to confrim both alphabits and nums.
+
+z = "aaaaaaaaabbbBb111bb"
+l= "aaaaaaaaabbbBb111bb"
+
+print(z.isalnum())
+print(l.isalnum())
+
+
+#-----------------
+
+#replace()
+
+a = "Hello my name is one kareem one one three"
+
+print(a.replace("one" , "KIZO"))
+
+print(a.replace("one" , "KIZO" , 2))
+
+#----------
+
+#join(iterable) allows you to convert list to string
+
+mylist = ["Kimo" , "Kizo" , "Koko"]
+
+print("-" .join(mylist))
+
+print(" " .join(mylist))
+
+print("," .join(mylist))
+
+
+x = "hello "
+
+y = "kizo"
+
+print(x + y)
+
+
+msg= "Elzero Web School"
+
+print(msg [::2])
+
+user_input = "###   Gamer123   ###"
+
+print(user_input.strip("#").strip (" "))
+
+order_id = "79"
+
+print(order_id.zfill(5))
+
+code_line = "We use PHP, because PHP is a backend language."
+
+print(code_line.replace ("PHP", "Python"))
+
+title = "elzero web 3school"
+print(title.title())
+print(title.capitalize())
+
+username = "_Gamer123"
+
+print(username.startswith("_"))
+
+sentence = "Python is an amazing language, and I love Python!"
+
+print(sentence.count ("Python"))
+
+data = "###...loohcS beW orezlE...###"
+
+print(data.strip("#") .strip(".") [::-1] .title())
+
+log_data = "status_code:404-error_type:not_found"
+
+print(type(int(log_data [12 : 15])))
+
+#raw_password = "   ---mySecurePass123---   "
+
+#print(raw_password.strip () .strip("-"))
+
+serial = "79-elzero-2026"
+
+print (serial.replace ("-" , " ").title())
+
+record = "####item_name:gaming_chair_pro####"
+
+print (record. strip ("#").strip("item_name:").replace("_" , " ").title())

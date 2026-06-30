@@ -1,5 +1,2 @@
-# PythonCoding 
-Python files
+x = "@@@_elzero_web_school_@@@"
 
-
-A 
